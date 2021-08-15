@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <title> e-tech </title>
+        <!-- css link-->
+        <link href="index.css" rel="stylesheet" />
+        <!-- j query cdn -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+    <body>
+
+      <header>
+        <div class="header">
+        <div class="site-logo">
+            <img src="https://www.graphicsprings.com/filestorage/stencils/cbbfb5b19f154658b844a853140b6295.png?width=150&height=150" alt="logo" />
+        
+          </div>
+        
+        <div class="input-box-con" >
+               <input id="input" type="search"  class="input-box" aria-label="Text input with segmented button dropdown" >
+                
+       </div>
+       <div>
+        <i class="fas fa-user" style="border-radius: 50%; border: 1px solid greenyellow ;margin-right: 15px; padding: 10px;"></i>
+       </div>
+      </div>
+      </header>
+
+      <main>
+            <div class="container">
+            <div class="left-side" >
+              <h2>Select Filter</h2>
+
+              <h4>Count : <span class="total-school" > </span> </h4>
+
+              <h3>Classification</h3>
+              <div class="check-container">
+              <label id="Co-ed" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders"  value="coEd">Co-ed
+            </label>
+            <label id="Boys" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="boys">Boys School
+            </label>
+            <label id="Girls" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="girls">Girls School
+            </label>
+              </div>    
+              <h3>Type of Schools</h3>
+              <div class="check-container">
+
+              <label id="Day" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="daySchool">Day School
+            </label>
+            <label id="Boarding" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="fullBoarding">Boarding
+            </label>
+            <label id="Day-Boarding" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="DayBoarding">Day Boarding
+            </label>
+                 </div>
+              <h3>Board</h3>
+              <div class="check-container">
+                
+              <label id="CBSC" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="cbsc">CBSC
+            </label>
+            <label id="ICSC" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="icsc">ICSC
+            </label>
+            <label id="IB" class="filters-container">
+                <input class="filter-menus filters" type="checkbox" name="filter-orders" value="ib">IB
+            </label>
+            <label id="IGCSE" class="filters-container">
+              <input class="filter-menus filters" type="checkbox" name="filter-orders" value="igcse">IGCSE
+          </label>
+
+          </div>
+            </div>
+            <div class="right-side" >
+              <h2>Related Schools</h2>
+
+            </div>
+            </div>
+      </main>
+
+      <footer>
+           <div class="footer">
+
+           </div>
+      </footer>
+
+        <script src="filter.js" ></script>
+        <script src="data.js" ></script>
+
+    </body>
+</html>
